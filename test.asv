@@ -1,0 +1,19 @@
+xc2=0;yc2=0;
+for j=0:3
+    Beta = j * 0.5 * pi:.1:(j+1)*0.5*pi;
+    a=97.057659149169922;
+    b=17.567956924438246;
+    Dopt=260.82765052539486;
+    baseline=50;
+    xc= (a+Dopt) * cos(Beta);
+    yc= (b+Dopt) * sin (Beta);
+    r=sqrt(xc.*xc+yc.*yc);
+    eps =2 * asin(baseline/2*r);
+    l=Beta+eps;
+    
+    xc2= r2 .* cos(Beta+eps);
+    yc2= r2 .* sin(Beta+eps);			                
+    plot(xc,yc)
+    hold on
+    plot(xc2,yc2, 'r')
+end
