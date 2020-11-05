@@ -1,5 +1,8 @@
 # IND
 Imaging Network Designer is a software package developed by Dr. Hosseininaveh for both complete imaging network design and clustering and selecting vantage images 
+the code is written in visual studio c++ and can be downloaded in the following link:
+https://www.dropbox.com/s/edxwhnh7xj1r7lf/INDRoIND.rar?dl=0
+
 The more information about IND can be found in https://discovery.ucl.ac.uk/id/eprint/1418620/
 
 Please Cite the follwoing articles in case of using the software in any publications:
@@ -15,5 +18,6 @@ Hosseininaveh, A., Yazdan, R., Karami, A., Moradi, M. and Ghorbani, F., 2016. Cl
 Ahmadabadian, A.H., Yazdan, R., Karami, A., Moradi, M. and Ghorbani, F., 2017. Clustering and selecting vantage images in a low-cost system for 3D reconstruction of texture-less objects. Measurement, 99, pp.185-191.
 
 Mahami, H., Nasirzadeh, F., Ahmadabadian, A.H., Esmaeili, F. and Nahavandi, S., 2019. Imaging network design to improve the automated construction progress monitoring process. Construction Innovation.
+
 
 
